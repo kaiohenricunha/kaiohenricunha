@@ -13,9 +13,9 @@
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
-> Computadores fazem arte
-> artistas fazem dinheiro
-> Computadores avançam
+> Computadores fazem arte<br>
+> artistas fazem dinheiro<br>
+> Computadores avançam<br>
 > artistas levam a fama
 
 ---
