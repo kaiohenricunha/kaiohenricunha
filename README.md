@@ -13,7 +13,10 @@
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
-I write Go, build platforms, and keep things safe and running. Most of my work lives at the intersection of backend services and cloud infrastructure.
+> Computadores fazem arte
+> artistas fazem dinheiro
+> Computadores avançam
+> artistas levam a fama
 
 ---
 
