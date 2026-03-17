@@ -13,6 +13,8 @@
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=kaiohenricunha&layout=compact&theme=tokyonight&hide=html,css)
+
 > Computadores fazem arte<br>
 > artistas fazem dinheiro<br>
 > Computadores avançam<br>
