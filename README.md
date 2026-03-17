@@ -37,6 +37,10 @@
 
 📊 [aws-scalable-metabase-deployment](https://github.com/kaiohenricunha/aws-scalable-metabase-deployment) - Production-grade Metabase on EKS with Fargate, Karpenter, and Keda. Designed as a real-world case study.
 
+⚡ [ami-update-automation](https://github.com/kaiohenricunha/ami-update-automation) - AWS Lambda that detects new EKS-optimized AMI versions via SSM and automatically opens PRs to update `ami_release_version` across Terraform, Terragrunt, Pulumi, and Crossplane repos.
+
+🧹 [kube-janitor](https://github.com/kaiohenricunha/kube-janitor) - Kubernetes controller that automatically classifies and garbage-collects stale resources using TTL annotations, expiry timestamps, owner references, and a resolver reference graph.
+
 ---
 
 ## Latest Blog Posts
