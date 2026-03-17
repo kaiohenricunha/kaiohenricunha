@@ -41,6 +41,8 @@
 
 🧹 [kube-janitor](https://github.com/kaiohenricunha/kube-janitor) - Kubernetes controller that automatically classifies and garbage-collects stale resources using TTL annotations, expiry timestamps, owner references, and a resolver reference graph.
 
+⚽ **Moneyballer** *(private)* - Stats-based scouting system for football teams. Python ELT pipeline, Go API, and TypeScript/React/Vite frontend.
+
 ---
 
 ## Latest Blog Posts
