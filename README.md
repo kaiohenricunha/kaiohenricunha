@@ -12,6 +12,16 @@
 ![Datadog](https://img.shields.io/badge/-Datadog-632CA6?style=flat&logo=datadog&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
+![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
+![Loki](https://img.shields.io/badge/-Loki-F4DF4E?style=flat&logo=grafana&logoColor=black)
+![Istio](https://img.shields.io/badge/-Istio-466BB0?style=flat&logo=istio&logoColor=white)
+![Karpenter](https://img.shields.io/badge/-Karpenter-FF9900?style=flat&logoColor=white)
+![KEDA](https://img.shields.io/badge/-KEDA-326CE5?style=flat&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-F5A800?style=flat&logo=opentelemetry&logoColor=black)
+![k6](https://img.shields.io/badge/-k6-7D64FF?style=flat&logo=k6&logoColor=white)
+![Thanos](https://img.shields.io/badge/-Thanos-6D41FF?style=flat&logoColor=white)
+![Flux](https://img.shields.io/badge/-Flux-5468FF?style=flat&logo=flux&logoColor=white)
+![Crossplane](https://img.shields.io/badge/-Crossplane-EF3A43?style=flat&logo=crossplane&logoColor=white)
 
 > Computadores fazem arte<br>
 > artistas fazem dinheiro<br>
