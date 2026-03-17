@@ -1,4 +1,4 @@
-# Hi, I'm Kaio 👋
+# Kaio here 👋
 
 📍 Fortaleza, Brazil | 🔧 Senior Backend & Platform Engineer | 🎨 Eclectic builder
 
