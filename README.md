@@ -22,6 +22,7 @@
 ![Thanos](https://img.shields.io/badge/-Thanos-6D41FF?style=flat&logoColor=white)
 ![Flux](https://img.shields.io/badge/-Flux-5468FF?style=flat&logo=flux&logoColor=white)
 ![Crossplane](https://img.shields.io/badge/-Crossplane-EF3A43?style=flat&logo=crossplane&logoColor=white)
+![Claude](https://img.shields.io/badge/-Claude-CC785C?style=flat&logo=anthropic&logoColor=white)
 
 > Computadores fazem arte<br>
 > artistas fazem dinheiro<br>
