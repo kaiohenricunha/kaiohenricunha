@@ -45,6 +45,8 @@
 
 🔐 [pentest-operator](https://github.com/kaiohenricunha/pentest-operator) - Kubernetes operator that automates scheduled Shannon penetration testing via a `SecurityScan` CRD. Manages Jobs/CronJobs, parses findings, evaluates policy thresholds, and surfaces results via K8s Events and Prometheus metrics.
 
+🔗 [shannon-reporter](https://github.com/kaiohenricunha/shannon-reporter) - CLI tool and GitHub Action that bridges Shannon pentest reports into GitHub workflows — creating Issues, commenting on PRs, and enforcing quality gates.
+
 ⚽ **Moneyballer** *(private)* - Stats-based scouting system for football teams. Python ELT pipeline, Go API, and TypeScript/React/Vite frontend.
 
 ---
