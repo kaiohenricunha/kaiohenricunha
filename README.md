@@ -41,6 +41,8 @@
 
 🧹 [kube-janitor](https://github.com/kaiohenricunha/kube-janitor) - Kubernetes controller that automatically classifies and garbage-collects stale resources using TTL annotations, expiry timestamps, owner references, and a resolver reference graph.
 
+🛡️ [pentest-dashboard](https://github.com/kaiohenricunha/pentest-dashboard) - Go web dashboard that ingests Shannon pentest reports, stores findings in SQLite, and tracks security posture across apps with REST API and Prometheus metrics.
+
 ⚽ **Moneyballer** *(private)* - Stats-based scouting system for football teams. Python ELT pipeline, Go API, and TypeScript/React/Vite frontend.
 
 ---
