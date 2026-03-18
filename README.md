@@ -43,6 +43,8 @@
 
 🛡️ [pentest-dashboard](https://github.com/kaiohenricunha/pentest-dashboard) - Go web dashboard that ingests Shannon pentest reports, stores findings in SQLite, and tracks security posture across apps with REST API and Prometheus metrics.
 
+🔐 [pentest-operator](https://github.com/kaiohenricunha/pentest-operator) - Kubernetes operator that automates scheduled Shannon penetration testing via a `SecurityScan` CRD. Manages Jobs/CronJobs, parses findings, evaluates policy thresholds, and surfaces results via K8s Events and Prometheus metrics.
+
 ⚽ **Moneyballer** *(private)* - Stats-based scouting system for football teams. Python ELT pipeline, Go API, and TypeScript/React/Vite frontend.
 
 ---
