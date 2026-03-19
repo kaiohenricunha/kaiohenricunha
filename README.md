@@ -47,6 +47,8 @@
 
 🔗 [shannon-reporter](https://github.com/kaiohenricunha/shannon-reporter) - CLI tool and GitHub Action that bridges Shannon pentest reports into GitHub workflows — creating Issues, commenting on PRs, and enforcing quality gates.
 
+🎯 [pentest-lab](https://github.com/kaiohenricunha/pentest-lab) - Deliberately vulnerable Go REST API serving as a live target for Shannon. Embeds six realistic vulnerabilities (SQLi, IDOR, SSRF, XSS, Broken Auth, Mass Assignment) for white-box + black-box exploit validation.
+
 ⚽ **Moneyballer** *(private)* - Stats-based scouting system for football teams. Python ELT pipeline, Go API, and TypeScript/React/Vite frontend.
 
 ---
