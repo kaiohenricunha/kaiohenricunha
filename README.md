@@ -23,6 +23,8 @@
 ![Flux](https://img.shields.io/badge/-Flux-5468FF?style=flat&logo=flux&logoColor=white)
 ![Crossplane](https://img.shields.io/badge/-Crossplane-EF3A43?style=flat&logo=crossplane&logoColor=white)
 ![Claude](https://img.shields.io/badge/-Claude-CC785C?style=flat&logo=anthropic&logoColor=white)
+![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
+![Great Expectations](https://img.shields.io/badge/-Great_Expectations-FF6310?style=flat&logoColor=white)
 
 > Computadores fazem arte<br>
 > artistas fazem dinheiro<br>
@@ -32,6 +34,8 @@
 ---
 
 ## Current Projects
+
+🩺 **Cori** *(private)* - Holistic health monitoring app connecting patients with doctors, nutritionists, and trainers through role-scoped health data views. React Native + Go API + Python AI service.
 
 🔩 [metrics-aggregator](https://github.com/kaiohenricunha/metrics-aggregator) - Go service that aggregates Prometheus metrics from multiple containers in a K8s Pod. Solves the "Istio limits you to one metrics port" problem.
 
