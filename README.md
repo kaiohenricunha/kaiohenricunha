@@ -61,6 +61,8 @@
 
 ## Latest Blog Posts
 
+📝 [Istio's Metrics Merging Was Built for a Simpler World. What Should Replace It?](https://medium.com/@kaiohsdc/istios-metrics-merging-was-built-for-a-simpler-world-what-should-replace-it-585b285fbc32?postPublishedType=repub)
+
 📝 [Scaling Workloads with the Big Savings Quartet: EKS, Fargate, Karpenter, and KEDA](https://medium.com/@kaiohsdc/scaling-workloads-with-the-big-savings-quartet-eks-fargate-karpenter-and-keda-1d43d2bb5f72)
 
 📝 [Why Istio's Metrics Merging Breaks in Multi-Container Pods — and How to Fix It](https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f)
