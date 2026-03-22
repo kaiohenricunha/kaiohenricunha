@@ -57,6 +57,8 @@
 
 🏆 [wc-squad-rankings](https://github.com/kaiohenricunha/wc-squad-rankings) - React + Vite dashboard ranking 12 national teams for the 2026 FIFA World Cup using a composite score that blends Sofascore player ratings with Kalshi prediction market odds (adjustable weight). Starting XI and bench depth views, positional breakdowns, coach tiers, and multilingual support (EN/PT/FR/ES).
 
+🎬 [showreel](https://github.com/kaiohenricunha/showreel) - Script-driven demo video generator built on Remotion. Drop screenshots, write a declarative scene script (title cards, browser frames, captions, cursor animations, highlights, transitions), and render a polished MP4.
+
 ⚽ **Moneyballer** *(private)* - Stats-based scouting system for football teams. Python ELT pipeline, Go API, and TypeScript/React/Vite frontend.
 
 ---
