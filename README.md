@@ -55,6 +55,8 @@
 
 🎯 [pentest-lab](https://github.com/kaiohenricunha/pentest-lab) - Deliberately vulnerable Go REST API serving as a live target for Shannon. Embeds six realistic vulnerabilities (SQLi, IDOR, SSRF, XSS, Broken Auth, Mass Assignment) for white-box + black-box exploit validation.
 
+🏆 [wc-squad-rankings](https://github.com/kaiohenricunha/wc-squad-rankings) - Interactive React + Vite dashboard ranking 12 national teams for the 2026 FIFA World Cup by Sofascore season average ratings. Starting XI rankings, bench depth analysis, and full squad breakdowns.
+
 ⚽ **Moneyballer** *(private)* - Stats-based scouting system for football teams. Python ELT pipeline, Go API, and TypeScript/React/Vite frontend.
 
 ---
