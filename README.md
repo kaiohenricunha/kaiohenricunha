@@ -55,7 +55,7 @@
 
 🎯 [pentest-lab](https://github.com/kaiohenricunha/pentest-lab) - Deliberately vulnerable Go REST API serving as a live target for Shannon. Embeds six realistic vulnerabilities (SQLi, IDOR, SSRF, XSS, Broken Auth, Mass Assignment) for white-box + black-box exploit validation.
 
-🏆 **SquadRanks** *(private)* - Full-stack 2026 FIFA World Cup app: React + Vite frontend with composite squad rankings (Sofascore ratings × Kalshi odds, adjustable weight), multiplayer prediction pools (bolão), and match schedules. Go API with Google OAuth, PostgreSQL, and prediction scoring. Deployed on Vercel + Fly.io. Multilingual (EN/PT/FR/ES).
+🏆 [**SquadRanks**](https://squadranks.com/) *(private)* - Full-stack 2026 FIFA World Cup app: React + Vite frontend with composite squad rankings (Sofascore ratings × Kalshi odds, adjustable weight), multiplayer prediction pools (bolão), and match schedules. Go API with Google OAuth, PostgreSQL, and prediction scoring. Deployed on Vercel + Fly.io. Multilingual (EN/PT/FR/ES).
 
 🎬 [showreel](https://github.com/kaiohenricunha/showreel) - Script-driven demo video generator built on Remotion. Drop screenshots, write a declarative scene script (title cards, browser frames, captions, cursor animations, highlights, transitions), and render a polished MP4.
 
