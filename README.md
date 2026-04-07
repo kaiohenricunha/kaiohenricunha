@@ -35,6 +35,8 @@
 
 ## Current Projects
 
+🧠 [kortex](https://github.com/kaiohenricunha/kortex) - CLI tool that compiles raw source material into a structured, interlinked Obsidian knowledge base. Automatic cross-linking (title matching, tag overlap, concept detection, LLM-powered), git-versioned vaults, incremental compilation. Go + Cobra.
+
 ⚔️ [lamport](https://github.com/kaiohenricunha/lamport) - Go + Temporal cloud infrastructure pentesting tool that orchestrates a 13-agent Claude AI pipeline (pre-recon → analysis → exploitation → report) across AWS, GCP, Azure, and Kubernetes targets. Typed Go tool execution keeps the AI from doing anything not explicitly implemented.
 
 🩺 **Cori** *(private)* - Holistic health monitoring app connecting patients with doctors, nutritionists, and trainers through role-scoped health data views. React Native + Go API + Python AI service.
