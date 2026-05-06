@@ -37,7 +37,7 @@
 
 🧠 [kortex](https://github.com/kaiohenricunha/kortex) - CLI tool that compiles raw source material into a structured, interlinked Obsidian knowledge base. Automatic cross-linking (title matching, tag overlap, concept detection, LLM-powered), git-versioned vaults, incremental compilation. Go + Cobra.
 
-⚙️ [dotclaude](https://github.com/kaiohenricunha/dotclaude) - Global Claude Code configuration plus `@kaiohenricunha/harness`, a portable plugin + npm package for spec-driven development. Ships CLI validators for skills-manifest checksums, spec schemas, PR spec-coverage gates, and instruction drift across `CLAUDE.md`/`README.md`/`copilot-instructions.md`, plus a `harness-init` scaffolder.
+⚙️ [dotbabel](https://github.com/kaiohenricunha/dotbabel) - Model-agnostic governance toolkit for agentic CLIs (Claude Code, Codex, Gemini, Copilot) plus `@dotbabel/dotbabel`, a portable plugin + npm package for spec-driven development. Ships CLI validators for skills-manifest checksums, spec schemas, PR spec-coverage gates, and instruction drift across `CLAUDE.md`/`README.md`/`copilot-instructions.md`, plus a `dotbabel-init` scaffolder.
 
 ⚔️ [lamport](https://github.com/kaiohenricunha/lamport) - Go + Temporal cloud infrastructure pentesting tool that orchestrates a 13-agent Claude AI pipeline (pre-recon → analysis → exploitation → report) across AWS, GCP, Azure, and Kubernetes targets. Typed Go tool execution keeps the AI from doing anything not explicitly implemented.
 
