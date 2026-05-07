@@ -69,6 +69,10 @@
 
 ## Latest Blog Posts
 
+📝 [dotbabel: The Open Source Governance Layer for AI-Assisted Development](https://medium.com/@methodMan/dotclaude-the-open-source-governance-layer-for-ai-assisted-development-b57880968ce9)
+
+📝 [dotbabel handoff: Portable Context across Claude Code, Codex, Copilot CLI, and Gemini CLI](https://medium.com/@methodMan/dotclaude-handoff-portable-context-across-claude-code-codex-copilot-cli-and-gemini-cli-746ea788d03a)
+
 📝 [Istio's Metrics Merging Was Built for a Simpler World. What Should Replace It?](https://medium.com/@kaiohsdc/istios-metrics-merging-was-built-for-a-simpler-world-what-should-replace-it-585b285fbc32?postPublishedType=repub)
 
 📝 [Scaling Workloads with the Big Savings Quartet: EKS, Fargate, Karpenter, and KEDA](https://medium.com/@kaiohsdc/scaling-workloads-with-the-big-savings-quartet-eks-fargate-karpenter-and-keda-1d43d2bb5f72)
