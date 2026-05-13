@@ -84,6 +84,10 @@ Solves a real production failure mode previously without an upstream fix.
 
 ---
 
+## Certifications
+
+**Earned** — AWS Solutions Architect Associate · AWS AI Practitioner · AWS Cloud Practitioner
+
 <details>
 <summary><b>Random Facts</b></summary>
 
