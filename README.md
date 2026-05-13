@@ -1,6 +1,6 @@
 # Kaio here 👋
 
-📍 Fortaleza, Brazil | 🔧 Senior Platform Engineer · Istio upstream contributor · Go & K8s operators
+📍 Fortaleza, Brazil | 🔧 Senior Platform Engineer · Open source contributor · Go & K8s operators
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -19,7 +19,7 @@
 
 ## 🌐 Upstream — Istio
 
-Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#59567**](https://github.com/istio/istio/issues/59567) (multi-port metrics merging in `enablePrometheusMerge`); design discussion with maintainers ([@howardjohn](https://github.com/howardjohn), [@keithmattix](https://github.com/keithmattix)) led to acceptance of the additive `prometheus.istio.io/scrape-targets` annotation over deprecation. Currently landing a 3-PR series:
+Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#59567**](https://github.com/istio/istio/issues/59567) (multi-port metrics merging in `enablePrometheusMerge`); design discussion with maintainers led to acceptance of the additive `prometheus.istio.io/scrape-targets` annotation over deprecation. Currently landing a 3-PR series:
 
 - [**#59924**](https://github.com/istio/istio/pull/59924) — annotation parsing + data model with backward-compat guarantees
 - [**#59925**](https://github.com/istio/istio/pull/59925) — concurrent fan-out in `handleStats` with OpenMetrics EOF handling
