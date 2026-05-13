@@ -1,30 +1,19 @@
 # Kaio here 👋
 
-📍 Fortaleza, Brazil | 🔧 Senior Backend & Platform Engineer | 🎨 Eclectic builder
+📍 Fortaleza, Brazil | 🔧 Senior Platform Engineer · Istio upstream contributor · Go & K8s operators
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat&logo=amazonwebservices&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Istio](https://img.shields.io/badge/-Istio-466BB0?style=flat&logo=istio&logoColor=white)
 ![Terraform](https://img.shields.io/badge/-Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![Crossplane](https://img.shields.io/badge/-Crossplane-EF3A43?style=flat&logo=crossplane&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/-ArgoCD-EF7B4D?style=flat&logo=argo&logoColor=white)
 ![Helm](https://img.shields.io/badge/-Helm-0F1689?style=flat&logo=helm&logoColor=white)
-![Datadog](https://img.shields.io/badge/-Datadog-632CA6?style=flat&logo=datadog&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/-Prometheus-E6522C?style=flat&logo=prometheus&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/-GitHub_Actions-2088FF?style=flat&logo=githubactions&logoColor=white)
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
-![Loki](https://img.shields.io/badge/-Loki-F4DF4E?style=flat&logo=grafana&logoColor=black)
-![Istio](https://img.shields.io/badge/-Istio-466BB0?style=flat&logo=istio&logoColor=white)
-![Karpenter](https://img.shields.io/badge/-Karpenter-FF9900?style=flat&logoColor=white)
-![KEDA](https://img.shields.io/badge/-KEDA-326CE5?style=flat&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-F5A800?style=flat&logo=opentelemetry&logoColor=black)
-![k6](https://img.shields.io/badge/-k6-7D64FF?style=flat&logo=k6&logoColor=white)
-![Thanos](https://img.shields.io/badge/-Thanos-6D41FF?style=flat&logoColor=white)
-![Flux](https://img.shields.io/badge/-Flux-5468FF?style=flat&logo=flux&logoColor=white)
-![Crossplane](https://img.shields.io/badge/-Crossplane-EF3A43?style=flat&logo=crossplane&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude-CC785C?style=flat&logo=anthropic&logoColor=white)
-![DuckDB](https://img.shields.io/badge/-DuckDB-FFF000?style=flat&logo=duckdb&logoColor=black)
-![Great Expectations](https://img.shields.io/badge/-Great_Expectations-FF6310?style=flat&logoColor=white)
 
 > Computadores fazem arte<br>
 > artistas fazem dinheiro<br>
@@ -33,59 +22,79 @@
 
 ---
 
-## Current Projects
+## 🌐 Upstream — Istio
 
-🧠 [kortex](https://github.com/kaiohenricunha/kortex) - CLI tool that compiles raw source material into a structured, interlinked Obsidian knowledge base. Automatic cross-linking (title matching, tag overlap, concept detection, LLM-powered), git-versioned vaults, incremental compilation. Go + Cobra.
+Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#59567**](https://github.com/istio/istio/issues/59567) (multi-port metrics merging in `enablePrometheusMerge`); design discussion with maintainers ([@howardjohn](https://github.com/howardjohn), [@keithmattix](https://github.com/keithmattix)) led to acceptance of the additive `prometheus.istio.io/scrape-targets` annotation over deprecation. Currently landing a 3-PR series:
 
-⚙️ [dotbabel](https://github.com/kaiohenricunha/dotbabel) - Model-agnostic governance toolkit for agentic CLIs (Claude Code, Codex, Gemini, Copilot) plus `@dotbabel/dotbabel`, a portable plugin + npm package for spec-driven development. Ships CLI validators for skills-manifest checksums, spec schemas, PR spec-coverage gates, and instruction drift across `CLAUDE.md`/`README.md`/`copilot-instructions.md`, plus a `dotbabel-init` scaffolder.
+- [**#59924**](https://github.com/istio/istio/pull/59924) — annotation parsing + data model with backward-compat guarantees
+- [**#59925**](https://github.com/istio/istio/pull/59925) — concurrent fan-out in `handleStats` with OpenMetrics EOF handling
+- [**#59926**](https://github.com/istio/istio/pull/59926) — integration tests for STRICT mTLS multi-container pods
 
-⚔️ [lamport](https://github.com/kaiohenricunha/lamport) - Go + Temporal cloud infrastructure pentesting tool that orchestrates a 13-agent Claude AI pipeline (pre-recon → analysis → exploitation → report) across AWS, GCP, Azure, and Kubernetes targets. Typed Go tool execution keeps the AI from doing anything not explicitly implemented.
+Solves a real production failure mode previously without an upstream fix.
 
-🩺 **Cori** *(private)* - Holistic health monitoring app connecting patients with doctors, nutritionists, and trainers through role-scoped health data views. React Native + Go API + Python AI service.
-
-🔩 [metrics-aggregator](https://github.com/kaiohenricunha/metrics-aggregator) - Go service that aggregates Prometheus metrics from multiple containers in a K8s Pod. Solves the "Istio limits you to one metrics port" problem.
-
-📊 [aws-scalable-metabase-deployment](https://github.com/kaiohenricunha/aws-scalable-metabase-deployment) - Production-grade Metabase on EKS with Fargate, Karpenter, and Keda. Designed as a real-world case study.
-
-⚡ [ami-update-automation](https://github.com/kaiohenricunha/ami-update-automation) - AWS Lambda that detects new EKS-optimized AMI versions via SSM and automatically opens PRs to update `ami_release_version` across Terraform, Terragrunt, Pulumi, and Crossplane repos.
-
-🧹 [kube-janitor](https://github.com/kaiohenricunha/kube-janitor) - Kubernetes controller that automatically classifies and garbage-collects stale resources using TTL annotations, expiry timestamps, owner references, and a resolver reference graph.
-
-🛡️ [pentest-dashboard](https://github.com/kaiohenricunha/pentest-dashboard) - Go web dashboard that ingests Shannon pentest reports, stores findings in SQLite, and tracks security posture across apps with REST API and Prometheus metrics.
-
-🔐 [pentest-operator](https://github.com/kaiohenricunha/pentest-operator) - Kubernetes operator that automates scheduled Shannon penetration testing via a `SecurityScan` CRD. Manages Jobs/CronJobs, parses findings, evaluates policy thresholds, and surfaces results via K8s Events and Prometheus metrics.
-
-🔗 [shannon-reporter](https://github.com/kaiohenricunha/shannon-reporter) - CLI tool and GitHub Action that bridges Shannon pentest reports into GitHub workflows — creating Issues, commenting on PRs, and enforcing quality gates.
-
-🎯 [pentest-lab](https://github.com/kaiohenricunha/pentest-lab) - Deliberately vulnerable Go REST API serving as a live target for Shannon. Embeds six realistic vulnerabilities (SQLi, IDOR, SSRF, XSS, Broken Auth, Mass Assignment) for white-box + black-box exploit validation.
-
-🏆 [**SquadRanks**](https://squadranks.com/) *(private)* - Full-stack 2026 FIFA World Cup app: React + Vite frontend with composite squad rankings (Sofascore ratings × Kalshi odds, adjustable weight), multiplayer prediction pools (bolão), and match schedules. Go API with Google OAuth, PostgreSQL, and prediction scoring. Deployed on Vercel + Fly.io. Multilingual (EN/PT/FR/ES).
-
-🎬 [showreel](https://github.com/kaiohenricunha/showreel) - Script-driven demo video generator built on Remotion. Drop screenshots, write a declarative scene script (title cards, browser frames, captions, cursor animations, highlights, transitions), and render a polished MP4.
-
-⚽ **Moneyballer** *(private)* - Stats-based scouting system for football teams. Python ELT pipeline, Go API, and TypeScript/React/Vite frontend.
+→ [Why Istio's Metrics Merging Breaks in Multi-Container Pods — and How to Fix It](https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f)
 
 ---
 
-## Latest Blog Posts
+## What I'm Thinking About
 
-📝 [dotbabel: The Open Source Governance Layer for AI-Assisted Development](https://medium.com/@methodMan/dotclaude-the-open-source-governance-layer-for-ai-assisted-development-b57880968ce9)
+- **Multi-cluster Istio at production scale** — service mesh as platform primitive, not just sidecar config
+- **Crossplane vs Terraform for tenant-facing platform APIs** — when each wins, where the seams should be
+- **Agentic CLI governance** — what dotbabel solves and what still doesn't have a good answer
+- **Observability cost vs cardinality tradeoffs in Thanos at scale** — retention strategies, downsampling, the FinOps angle
 
-📝 [dotbabel handoff: Portable Context across Claude Code, Codex, Copilot CLI, and Gemini CLI](https://medium.com/@methodMan/dotclaude-handoff-portable-context-across-claude-code-codex-copilot-cli-and-gemini-cli-746ea788d03a)
+---
+
+## Featured Projects
+
+🔩 **[metrics-aggregator](https://github.com/kaiohenricunha/metrics-aggregator)** — Go sidecar for aggregating Prometheus metrics from multiple containers in a K8s Pod. The public artifact of the Istio #59567 contribution; production alerting and native OTel tracing (OTLP, W3C traceparent, Jaeger).
+
+🧹 **[kube-janitor](https://github.com/kaiohenricunha/kube-janitor)** — Kubernetes controller that automatically classifies and garbage-collects stale resources using TTL annotations, expiry timestamps, owner references, and a resolver reference graph. Operator chops in Go.
+
+⚙️ **[dotbabel](https://github.com/kaiohenricunha/dotbabel)** — Model-agnostic governance toolkit for agentic CLIs (Claude Code, Codex, Gemini, Copilot) plus the `@dotbabel/dotbabel` npm package. CLI validators for skills-manifest checksums, spec schemas, PR spec-coverage gates, and instruction drift across `CLAUDE.md` / `README.md` / `copilot-instructions.md`.
+
+🏆 **[SquadRanks](https://squadranks.com/)** *(private)* — Production 2026 FIFA World Cup app: composite squad rankings (Sofascore × Kalshi odds, adjustable weight), multiplayer prediction pools (bolão), multilingual (EN/PT/FR/ES). React + Vite + Go + PostgreSQL on Vercel + Fly.io.
+
+<details>
+<summary><b>Other Projects</b></summary>
+
+<br>
+
+🧠 **[kortex](https://github.com/kaiohenricunha/kortex)** — CLI that compiles raw source material into a structured, interlinked Obsidian knowledge base. Go + Cobra.
+
+⚔️ **[lamport](https://github.com/kaiohenricunha/lamport)** — Go + Temporal cloud infrastructure pentesting tool orchestrating a 13-agent Claude AI pipeline across AWS/GCP/Azure/K8s targets.
+
+📊 **[aws-scalable-metabase-deployment](https://github.com/kaiohenricunha/aws-scalable-metabase-deployment)** — Production-grade Metabase on EKS with Fargate, Karpenter, and KEDA. Real-world case study.
+
+⚡ **[ami-update-automation](https://github.com/kaiohenricunha/ami-update-automation)** — AWS Lambda detecting new EKS AMI versions and opening PRs across Terraform/Terragrunt/Pulumi/Crossplane repos.
+
+🛡️ **[pentest-dashboard](https://github.com/kaiohenricunha/pentest-dashboard)** — Go web dashboard ingesting Shannon pentest reports, tracking security posture with REST API + Prometheus metrics.
+
+🔗 **[shannon-reporter](https://github.com/kaiohenricunha/shannon-reporter)** — CLI tool and GitHub Action bridging Shannon pentest reports into GitHub workflows.
+
+🎯 **[pentest-lab](https://github.com/kaiohenricunha/pentest-lab)** — Deliberately vulnerable Go REST API for white-box + black-box exploit validation.
+
+🎬 **[showreel](https://github.com/kaiohenricunha/showreel)** — Script-driven demo video generator built on Remotion.
+
+🩺 **Cori** *(private)* — Holistic health monitoring app. React Native + Go API + Python AI service.
+
+⚽ **Moneyballer** *(private)* — Stats-based football scouting system. Python ELT + Go API + TypeScript/React.
+
+</details>
+
+---
+
+## Writing
+
+📝 [Why Istio's Metrics Merging Breaks in Multi-Container Pods — and How to Fix It](https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f)
 
 📝 [Istio's Metrics Merging Was Built for a Simpler World. What Should Replace It?](https://medium.com/@kaiohsdc/istios-metrics-merging-was-built-for-a-simpler-world-what-should-replace-it-585b285fbc32?postPublishedType=repub)
 
 📝 [Scaling Workloads with the Big Savings Quartet: EKS, Fargate, Karpenter, and KEDA](https://medium.com/@kaiohsdc/scaling-workloads-with-the-big-savings-quartet-eks-fargate-karpenter-and-keda-1d43d2bb5f72)
 
-📝 [Why Istio's Metrics Merging Breaks in Multi-Container Pods — and How to Fix It](https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f)
+📝 [dotbabel: The Open Source Governance Layer for AI-Assisted Development](https://medium.com/@methodMan/dotclaude-the-open-source-governance-layer-for-ai-assisted-development-b57880968ce9)
 
----
-
-## What I Work With Daily
-
-- **Platform Engineering** - EKS clusters, Terraform everything, ArgoCD for GitOps, Helm charts, GitHub Actions CI/CD
-- **Observability** - Datadog, Prometheus/Grafana, SLO/SLI frameworks, on-call and incident response
-- **Backend** - Go services, REST APIs, security hardening, cloud-native patterns
+📝 [dotbabel handoff: Portable Context across Claude Code, Codex, Copilot CLI, and Gemini CLI](https://medium.com/@methodMan/dotclaude-handoff-portable-context-across-claude-code-codex-copilot-cli-and-gemini-cli-746ea788d03a)
 
 ---
 
@@ -94,7 +103,9 @@
 > "Automate it or it didn't happen." — I spent 8 years teaching English before I ever wrote a line of Go. Both jobs are about the same thing: making complex things clear and keeping people from getting lost. Go is the answer to most questions. Terraform handles the rest.
 
 <details>
-<summary>Random Facts</summary>
+<summary><b>Random Facts</b></summary>
+
+<br>
 
 - Taught English for 8 years — still the best debugging skill I have
 - Will argue about football (the real one ⚽) with anyone
@@ -110,4 +121,6 @@
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/kaiohenricunha)
 [![GitHub](https://img.shields.io/badge/-Follow-181717?style=flat&logo=github&logoColor=white)](https://github.com/kaiohenricunha)
 [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=x&logoColor=white)](https://twitter.com/kaiohenricunha)
+[![Medium](https://img.shields.io/badge/-Medium-12100E?style=flat&logo=medium&logoColor=white)](https://medium.com/@kaiohsdc)
+[![dev.to](https://img.shields.io/badge/-dev.to-0A0A0A?style=flat&logo=devdotto&logoColor=white)](https://dev.to/kaiohenricunha)
 ![Timezone](https://img.shields.io/badge/-UTC--3_(Fortaleza)-gray?style=flat&logo=clock&logoColor=white)
