@@ -15,11 +15,6 @@
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-F5A800?style=flat&logo=opentelemetry&logoColor=black)
 
-> Computadores fazem arte<br>
-> artistas fazem dinheiro<br>
-> Computadores avançam<br>
-> artistas levam a fama
-
 ---
 
 ## 🌐 Upstream — Istio
@@ -33,15 +28,6 @@ Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#5
 Solves a real production failure mode previously without an upstream fix.
 
 → [Why Istio's Metrics Merging Breaks in Multi-Container Pods — and How to Fix It](https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f)
-
----
-
-## What I'm Thinking About
-
-- **Multi-cluster Istio at production scale** — service mesh as platform primitive, not just sidecar config
-- **Crossplane vs Terraform for tenant-facing platform APIs** — when each wins, where the seams should be
-- **Agentic CLI governance** — what dotbabel solves and what still doesn't have a good answer
-- **Observability cost vs cardinality tradeoffs in Thanos at scale** — retention strategies, downsampling, the FinOps angle
 
 ---
 
@@ -62,6 +48,10 @@ Solves a real production failure mode previously without an upstream fix.
 
 🧠 **[kortex](https://github.com/kaiohenricunha/kortex)** — CLI that compiles raw source material into a structured, interlinked Obsidian knowledge base. Go + Cobra.
 
+🩺 **Cori** *(private)* — Holistic health monitoring app. React Native + Go API + Python AI service.
+
+⚽ **Moneyballer** *(private)* — Stats-based football scouting system. Python ELT + Go API + TypeScript/React.
+
 ⚔️ **[lamport](https://github.com/kaiohenricunha/lamport)** — Go + Temporal cloud infrastructure pentesting tool orchestrating a 13-agent Claude AI pipeline across AWS/GCP/Azure/K8s targets.
 
 📊 **[aws-scalable-metabase-deployment](https://github.com/kaiohenricunha/aws-scalable-metabase-deployment)** — Production-grade Metabase on EKS with Fargate, Karpenter, and KEDA. Real-world case study.
@@ -75,10 +65,6 @@ Solves a real production failure mode previously without an upstream fix.
 🎯 **[pentest-lab](https://github.com/kaiohenricunha/pentest-lab)** — Deliberately vulnerable Go REST API for white-box + black-box exploit validation.
 
 🎬 **[showreel](https://github.com/kaiohenricunha/showreel)** — Script-driven demo video generator built on Remotion.
-
-🩺 **Cori** *(private)* — Holistic health monitoring app. React Native + Go API + Python AI service.
-
-⚽ **Moneyballer** *(private)* — Stats-based football scouting system. Python ELT + Go API + TypeScript/React.
 
 </details>
 
@@ -97,10 +83,6 @@ Solves a real production failure mode previously without an upstream fix.
 📝 [dotbabel handoff: Portable Context across Claude Code, Codex, Copilot CLI, and Gemini CLI](https://medium.com/@methodMan/dotclaude-handoff-portable-context-across-claude-code-codex-copilot-cli-and-gemini-cli-746ea788d03a)
 
 ---
-
-## Philosophy
-
-> "Automate it or it didn't happen." — I spent 8 years teaching English before I ever wrote a line of Go. Both jobs are about the same thing: making complex things clear and keeping people from getting lost. Go is the answer to most questions. Terraform handles the rest.
 
 <details>
 <summary><b>Random Facts</b></summary>
