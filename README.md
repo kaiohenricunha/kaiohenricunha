@@ -1,6 +1,6 @@
 # Kaio here 👋
 
-📍 Fortaleza, Brazil | 🔧 Senior Platform Engineer · Open source contributor · Go & K8s operators
+📍 Fortaleza, Brazil | 🔧 Senior Platform Engineer · Istio upstream contributor · Go & K8s operators
 
 ![Go](https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white)
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
@@ -15,19 +15,33 @@
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-F5A800?style=flat&logo=opentelemetry&logoColor=black)
 
+> Computadores fazem arte<br>
+> artistas fazem dinheiro<br>
+> Computadores avançam<br>
+> artistas levam a fama
+
 ---
 
 ## 🌐 Upstream — Istio
 
-Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#59567**](https://github.com/istio/istio/issues/59567) (multi-port metrics merging in `enablePrometheusMerge`); design discussion with maintainers led to acceptance of the additive `prometheus.istio.io/scrape-targets` annotation over deprecation. Currently landing a 3-PR series:
+Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#59567**](https://github.com/istio/istio/issues/59567) (multi-port metrics merging in `enablePrometheusMerge`); design discussion with maintainers ([@howardjohn](https://github.com/howardjohn), [@keithmattix](https://github.com/keithmattix)) led to acceptance of the additive `prometheus.istio.io/scrape-targets` annotation over deprecation. **2 of 3 PRs from the implementation series are merged**:
 
-- [**#59924**](https://github.com/istio/istio/pull/59924) — annotation parsing + data model with backward-compat guarantees
-- [**#59925**](https://github.com/istio/istio/pull/59925) — concurrent fan-out in `handleStats` with OpenMetrics EOF handling
-- [**#59926**](https://github.com/istio/istio/pull/59926) — integration tests for STRICT mTLS multi-container pods
+- [**#59924**](https://github.com/istio/istio/pull/59924) *(merged)* — annotation parsing + data model with backward-compat guarantees
+- [**#59925**](https://github.com/istio/istio/pull/59925) *(merged)* — concurrent fan-out in `handleStats` with OpenMetrics EOF handling
+- [**#59926**](https://github.com/istio/istio/pull/59926) *(in review)* — integration tests for STRICT mTLS multi-container pods
 
 Solves a real production failure mode previously without an upstream fix.
 
 → [Why Istio's Metrics Merging Breaks in Multi-Container Pods — and How to Fix It](https://dev.to/kaiohenricunha/why-istios-metrics-merging-breaks-in-multi-container-pods-and-how-to-fix-it-3l6f)
+
+---
+
+## What I'm Thinking About
+
+- **Multi-cluster Istio at production scale** — service mesh as platform primitive, not just sidecar config
+- **Crossplane vs Terraform for tenant-facing platform APIs** — when each wins, where the seams should be
+- **Agentic CLI governance** — what dotbabel solves and what still doesn't have a good answer
+- **Observability cost vs cardinality tradeoffs in Thanos at scale** — retention strategies, downsampling, the FinOps angle
 
 ---
 
@@ -39,7 +53,7 @@ Solves a real production failure mode previously without an upstream fix.
 
 ⚙️ **[dotbabel](https://github.com/kaiohenricunha/dotbabel)** — Model-agnostic governance toolkit for agentic CLIs (Claude Code, Codex, Gemini, Copilot) plus the `@dotbabel/dotbabel` npm package. CLI validators for skills-manifest checksums, spec schemas, PR spec-coverage gates, and instruction drift across `CLAUDE.md` / `README.md` / `copilot-instructions.md`.
 
-🏆 **[SquadRanks](https://squadranks.com/)** *(private)* — Production 2026 FIFA World Cup app: composite squad rankings (Sofascore × Kalshi odds, adjustable weight), multiplayer prediction pools (bolão), multilingual (EN/PT/FR/ES). React + Vite + Go + PostgreSQL on Vercel + Fly.io.
+🏆 **[SquadRanks](https://squadranks.com/)** *(private)* — Production football intelligence platform. Composite squad rankings from heterogeneous stats and prediction-market sources (Sofascore × Kalshi), engineered around data variety and veracity. Multiplayer prediction pools (bolão), multilingual (EN/PT/FR/ES). TypeScript + React + Vite + Go + PostgreSQL on Vercel + Fly.io + Neon.
 
 <details>
 <summary><b>Other Projects</b></summary>
@@ -47,10 +61,6 @@ Solves a real production failure mode previously without an upstream fix.
 <br>
 
 🧠 **[kortex](https://github.com/kaiohenricunha/kortex)** — CLI that compiles raw source material into a structured, interlinked Obsidian knowledge base. Go + Cobra.
-
-🩺 **Cori** *(private)* — Holistic health monitoring app. React Native + Go API + Python AI service.
-
-⚽ **Moneyballer** *(private)* — Stats-based football scouting system. Python ELT + Go API + TypeScript/React.
 
 ⚔️ **[lamport](https://github.com/kaiohenricunha/lamport)** — Go + Temporal cloud infrastructure pentesting tool orchestrating a 13-agent Claude AI pipeline across AWS/GCP/Azure/K8s targets.
 
@@ -65,6 +75,10 @@ Solves a real production failure mode previously without an upstream fix.
 🎯 **[pentest-lab](https://github.com/kaiohenricunha/pentest-lab)** — Deliberately vulnerable Go REST API for white-box + black-box exploit validation.
 
 🎬 **[showreel](https://github.com/kaiohenricunha/showreel)** — Script-driven demo video generator built on Remotion.
+
+🩺 **Cori** *(private)* — Holistic health monitoring app. React Native + Go API + Python AI service.
+
+⚽ **Moneyballer** *(private)* — Stats-based football scouting system. Python ELT + Go API + TypeScript/React.
 
 </details>
 
@@ -83,10 +97,6 @@ Solves a real production failure mode previously without an upstream fix.
 📝 [dotbabel handoff: Portable Context across Claude Code, Codex, Copilot CLI, and Gemini CLI](https://medium.com/@methodMan/dotclaude-handoff-portable-context-across-claude-code-codex-copilot-cli-and-gemini-cli-746ea788d03a)
 
 ---
-
-## Certifications
-
-**Earned** — AWS Solutions Architect Associate · AWS AI Practitioner · AWS Cloud Practitioner
 
 <details>
 <summary><b>Random Facts</b></summary>
