@@ -36,15 +36,6 @@ Solves a real production failure mode previously without an upstream fix.
 
 ---
 
-## What I'm Thinking About
-
-- **Multi-cluster Istio at production scale** — service mesh as platform primitive, not just sidecar config
-- **Crossplane vs Terraform for tenant-facing platform APIs** — when each wins, where the seams should be
-- **Agentic CLI governance** — what dotbabel solves and what still doesn't have a good answer
-- **Observability cost vs cardinality tradeoffs in Thanos at scale** — retention strategies, downsampling, the FinOps angle
-
----
-
 ## Featured Projects
 
 🔩 **[metrics-aggregator](https://github.com/kaiohenricunha/metrics-aggregator)** — Go sidecar for aggregating Prometheus metrics from multiple containers in a K8s Pod. The public artifact of the Istio #59567 contribution; production alerting and native OTel tracing (OTLP, W3C traceparent, Jaeger).
