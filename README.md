@@ -28,7 +28,7 @@ Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#5
 
 - [**#59924**](https://github.com/istio/istio/pull/59924) *(merged)* — annotation parsing + data model with backward-compat guarantees
 - [**#59925**](https://github.com/istio/istio/pull/59925) *(merged)* — concurrent fan-out in `handleStats` with OpenMetrics EOF handling
-- [**#59926**](https://github.com/istio/istio/pull/59926) *(in review)* — integration tests for STRICT mTLS multi-container pods
+- [**#59926**](https://github.com/istio/istio/pull/59926) *(merged)* — integration tests for STRICT mTLS multi-container pods
 
 Solves a real production failure mode previously without an upstream fix.
 
