@@ -15,11 +15,6 @@
 ![Grafana](https://img.shields.io/badge/-Grafana-F46800?style=flat&logo=grafana&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/-OpenTelemetry-F5A800?style=flat&logo=opentelemetry&logoColor=black)
 
-> Computadores fazem arte<br>
-> artistas fazem dinheiro<br>
-> Computadores avançam<br>
-> artistas levam a fama
-
 ---
 
 ## 🌐 Upstream — Istio
