@@ -19,11 +19,11 @@
 
 ## 🌐 Upstream — Istio
 
-Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#59567**](https://github.com/istio/istio/issues/59567) (multi-port metrics merging in `enablePrometheusMerge`); design discussion with maintainers ([@howardjohn](https://github.com/howardjohn), [@keithmattix](https://github.com/keithmattix)) led to acceptance of the additive `prometheus.istio.io/scrape-targets` annotation over deprecation. **2 of 3 PRs from the implementation series are merged**:
+Active contributor to [istio/istio](https://github.com/istio/istio). Filed [**#59567**](https://github.com/istio/istio/issues/59567) (multi-port metrics merging in `enablePrometheusMerge`); design discussion with maintainers ([@howardjohn](https://github.com/howardjohn), [@keithmattix](https://github.com/keithmattix)) led to acceptance of the additive `prometheus.istio.io/scrape-targets` annotation over deprecation. **All 3 PRs from the implementation series are merged** and ship in Istio 1.31:
 
 - [**#59924**](https://github.com/istio/istio/pull/59924) *(merged)* — annotation parsing + data model with backward-compat guarantees
 - [**#59925**](https://github.com/istio/istio/pull/59925) *(merged)* — concurrent fan-out in `handleStats` with OpenMetrics EOF handling
-- [**#59926**](https://github.com/istio/istio/pull/59926) *(merged)* — integration tests for STRICT mTLS multi-container pods
+- [**#60468**](https://github.com/istio/istio/pull/60468) *(merged)* — integration tests for STRICT mTLS multi-container pods
 
 Solves a real production failure mode previously without an upstream fix.
 
